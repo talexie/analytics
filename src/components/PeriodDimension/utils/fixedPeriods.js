@@ -22,6 +22,9 @@ import {
     FYJUL,
     FYAPR,
 } from './index.js'
+import { 
+    convertGregoryToOther
+} from './modifyPeriods.js'
 
 const PERIOD_TYPE_REGEX = {
     [DAILY]: /^([0-9]{4})([0-9]{2})([0-9]{2})$/, // YYYYMMDD
@@ -68,7 +71,7 @@ const getPeriods = ({ periodType, config, fnFilter, periodSettings = {} }) => {
     periods = isFilter ? fnFilter(periods) : periods
     periods = !isReverse ? periods : periods.reverse()
 
-    return periods
+    return convertGregoryToOther(periods,periodType);
 }
 
 const getDailyPeriodType = (fnFilter, periodSettings) => {
