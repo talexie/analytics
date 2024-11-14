@@ -1,15 +1,17 @@
 # 
 # Translators:
-# phil_dhis2, 2023
+# Mai Nguyen <thanhmai.jica@gmail.com>, 2022
 # Viktor Varland <viktor@dhis2.org>, 2023
-# Mai Nguyen <thanhmai.jica@gmail.com>, 2023
+# Philip Larsen Donnelly, 2024
+# Thuy Nguyen <thuynguyen@hispvietnam.org>, 2024
+# Em Le <em.hispvietnam@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-07-06T08:30:33.216Z\n"
+"POT-Creation-Date: 2024-10-11T12:49:26.846Z\n"
 "PO-Revision-Date: 2020-04-28 22:05+0000\n"
-"Last-Translator: Mai Nguyen <thanhmai.jica@gmail.com>, 2023\n"
+"Last-Translator: Em Le <em.hispvietnam@gmail.com>, 2024\n"
 "Language-Team: Vietnamese (https://app.transifex.com/hisp-uio/teams/100509/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,11 +77,17 @@ msgstr ""
 msgid "About this visualization"
 msgstr ""
 
+msgid "About this event chart"
+msgstr ""
+
+msgid "About this event report"
+msgstr ""
+
 msgid "This app could not retrieve required data."
 msgstr ""
 
 msgid "Network error"
-msgstr ""
+msgstr "Lỗi mạng"
 
 msgid "Data / Edit calculation"
 msgstr ""
@@ -88,7 +96,7 @@ msgid "Data / New calculation"
 msgstr ""
 
 msgid "Remove item"
-msgstr ""
+msgstr "Bỏ mặt hàng"
 
 msgid "Check formula"
 msgstr ""
@@ -154,6 +162,9 @@ msgstr ""
 msgid "Data Type"
 msgstr "Loại dữ liệu"
 
+msgid "Only {{dataType}} can be used in {{visType}}"
+msgstr ""
+
 msgid "All types"
 msgstr "Các loại"
 
@@ -184,6 +195,9 @@ msgstr ""
 msgid "No program indicators found"
 msgstr ""
 
+msgid "No calculations found"
+msgstr ""
+
 msgid "No indicators found for \"{{- searchTerm}}\""
 msgstr ""
 
@@ -194,6 +208,9 @@ msgid "No event data items found for \"{{- searchTerm}}\""
 msgstr ""
 
 msgid "No program indicators found for \"{{- searchTerm}}\""
+msgstr ""
+
+msgid "No calculations found for \"{{- searchTerm}}\""
 msgstr ""
 
 msgid "Nothing found for \"{{- searchTerm}}\""
@@ -375,6 +392,10 @@ msgstr ""
 msgid "Write an interpretation"
 msgstr "Viết diễn giải"
 
+msgid ""
+"Other people viewing this interpretation in the future may see more data."
+msgstr ""
+
 msgid "Post interpretation"
 msgstr ""
 
@@ -386,7 +407,7 @@ msgstr "Trả lời"
 
 msgid "{{count}} replies"
 msgid_plural "{{count}} replies"
-msgstr[0] "{{đếm}} câu trả lời"
+msgstr[0] "{{count}} câu trả lời"
 
 msgid "View replies"
 msgstr ""
@@ -397,11 +418,14 @@ msgstr "Không thích"
 msgid "Like"
 msgstr "Thích"
 
-msgid "Share"
-msgstr "Chia sẻ"
-
 msgid "See interpretation"
 msgstr ""
+
+msgid "Open in app"
+msgstr ""
+
+msgid "Share"
+msgstr "Chia sẻ"
 
 msgid "Manage sharing"
 msgstr "Quản lý chia sẻ"
@@ -411,39 +435,6 @@ msgstr ""
 
 msgid "Enter interpretation text"
 msgstr ""
-
-msgid "Bold text"
-msgstr ""
-
-msgid "Italic text"
-msgstr ""
-
-msgid "Link to a URL"
-msgstr ""
-
-msgid "Mention a user"
-msgstr ""
-
-msgid "Add emoji"
-msgstr ""
-
-msgid "Preview"
-msgstr "Xem thử"
-
-msgid "Back to write mode"
-msgstr ""
-
-msgid "Too many results. Try refining the search."
-msgstr ""
-
-msgid "Search for a user"
-msgstr ""
-
-msgid "Searching for \"{{- searchText}}\""
-msgstr ""
-
-msgid "No results found"
-msgstr "Không tìm thấy kết quả nào"
 
 msgid "Not available offline"
 msgstr ""
@@ -632,14 +623,14 @@ msgstr "Chọn năm"
 msgid "Period"
 msgstr "Thời điểm"
 
+msgid "Selected Periods"
+msgstr "Thời điểm đã chọn"
+
 msgid "Relative periods"
 msgstr "Thời điểm tương đối"
 
 msgid "Fixed periods"
 msgstr "Thời điểm tĩnh"
-
-msgid "Selected Periods"
-msgstr "Thời điểm đã chọn"
 
 msgid "No periods selected"
 msgstr "Chưa chọn thời điểm"
@@ -681,7 +672,7 @@ msgid "Six-monthly April"
 msgstr "Hàng 6 tháng - tháng 4"
 
 msgid "Yearly"
-msgstr "Một năm"
+msgstr "Hàng năm"
 
 msgid "Financial year (Start November)"
 msgstr "Năm tài chính (Bắt đầu từ tháng 11)"
@@ -848,6 +839,30 @@ msgstr "Năm tài chính"
 msgid "Years"
 msgstr "Năm"
 
+msgid "Value: {{value}}"
+msgstr ""
+
+msgid "Bold text"
+msgstr ""
+
+msgid "Italic text"
+msgstr ""
+
+msgid "Link to a URL"
+msgstr ""
+
+msgid "Mention a user"
+msgstr ""
+
+msgid "Add emoji"
+msgstr ""
+
+msgid "Preview"
+msgstr "Xem thử"
+
+msgid "Back to write mode"
+msgstr ""
+
 msgid "Interpretations and details"
 msgstr ""
 
@@ -877,6 +892,18 @@ msgstr ""
 
 msgid "Retry"
 msgstr ""
+
+msgid "Too many results. Try refining the search."
+msgstr ""
+
+msgid "Search for a user"
+msgstr ""
+
+msgid "Searching for \"{{- searchText}}\""
+msgstr ""
+
+msgid "No results found"
+msgstr "Không tìm thấy kết quả nào"
 
 msgid "Series"
 msgstr "Chuỗi Dữ Liệu"
@@ -1085,6 +1112,9 @@ msgstr ""
 msgid "{{thresholdFactor}} × Z-score high"
 msgstr ""
 
+msgid "Not applicable"
+msgstr ""
+
 msgid "Data"
 msgstr "Lấy dữ liệu"
 
@@ -1141,6 +1171,9 @@ msgstr "phân tán"
 
 msgid "Single value"
 msgstr "Giá trị đơn"
+
+msgid "Outlier table"
+msgstr ""
 
 msgid "All charts"
 msgstr ""

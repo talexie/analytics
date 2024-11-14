@@ -11,6 +11,7 @@ import {
     isStacked,
     VIS_TYPE_GAUGE,
     VIS_TYPE_SCATTER,
+    VIS_TYPE_SINGLE_VALUE,
 } from '../../../../../modules/visTypes.js'
 import { getAxis } from '../../../../util/axes.js'
 import { getAxisStringFromId } from '../../../../util/axisId.js'
@@ -147,15 +148,13 @@ function getDefault(layout, series, extraOptions) {
     return axes
 }
 
-export default function (layout, series, extraOptions) {
-    let yAxis
+export default function yAxis(layout, series, extraOptions) {
     switch (layout.type) {
+        case VIS_TYPE_SINGLE_VALUE:
+            return null
         case VIS_TYPE_GAUGE:
-            yAxis = getGauge(layout, series, extraOptions.legendSets[0])
-            break
+            return getGauge(layout, series, extraOptions.legendSets[0])
         default:
-            yAxis = getDefault(layout, series, extraOptions)
+            return getDefault(layout, series, extraOptions)
     }
-
-    return yAxis
 }
